@@ -2,10 +2,8 @@ package main
 
 import "testing"
 
-const exampleInput1 string = `1abc2
-pqr3stu8vwx
-a1b2c3d4e5f
-treb7uchet`
+// FIXME
+const exampleInput1 string = ``
 
 func TestPart1(t *testing.T) {
 	tests := []struct {
@@ -16,13 +14,15 @@ func TestPart1(t *testing.T) {
 		{
 			name:  "example",
 			input: exampleInput1,
-			want:  142,
+			// FIXME
+			want:  42,
 		},
-		{
-			name:  "real",
-			input: input,
-			want:  54634,
-		},
+		// FIXME
+		// {
+		// 	name:  "real",
+		// 	input: input,
+		// 	want:  42,
+		// },
 	}
 
 	for _, tt := range tests {
@@ -34,13 +34,8 @@ func TestPart1(t *testing.T) {
 	}
 }
 
-const exampleInput2 string = `two1nine
-eightwothree
-abcone2threexyz
-xtwone3four
-4nineeightseven2
-zoneight234
-7pqrstsixteen`
+// FIXME
+const exampleInput2 string = ``
 
 func TestPart2(t *testing.T) {
 	tests := []struct {
@@ -51,13 +46,15 @@ func TestPart2(t *testing.T) {
 		{
 			name:  "example",
 			input: exampleInput2,
-			want:  281,
+			// FIXME
+			want:  42,
 		},
-		{
-			name:  "real",
-			input: input,
-			want:  53855,
-		},
+		// FIXME
+		// {
+		// 	name:  "real",
+		// 	input: input,
+		// 	want:  42,
+		// },
 	}
 
 	for _, tt := range tests {

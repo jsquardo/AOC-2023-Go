@@ -25,7 +25,7 @@ func main() {
 
 	if part == 1 {
 		ans := part1(input)
-		fmt.Println("Output:", ans)
+		fmt.Println(ans)
 	} else {
 		ans := part2(input)
 		fmt.Println(ans)
